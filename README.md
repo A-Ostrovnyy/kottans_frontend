@@ -1,4 +1,5 @@
 #Task 0
+
     I refreshed my knowledge about git.
     Create pull-request to Kottans/mock-repo.
     And have a good time playing https://learngitbranching.js.org/.
@@ -23,4 +24,10 @@
 
 |Item|Progress|
 |----|--------|
-|Intro to HTML & CSS|In progress...|
+|Intro to HTML & CSS|[pic](task_3/Intro_to_HTML_&_CSS.jpg)|
+
+#Task 4
+
+|Item|Progress|
+|----|--------|
+|Responsive Web Design Fundamentals|in progress...|
