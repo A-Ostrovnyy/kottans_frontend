@@ -30,4 +30,10 @@
 
 |Item|Progress|
 |----|--------|
-|Responsive Web Design Fundamentals|in progress...|
+|Responsive Web Design Fundamentals|[pic](task_4/Responsive_Web_Design_Fundamentals.png)|
+
+#Task 5
+
+|Item|Progress|
+|----|--------|
+|Intro to JS|in progress...|
