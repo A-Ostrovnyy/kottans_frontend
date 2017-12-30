@@ -36,4 +36,10 @@
 
 |Item|Progress|
 |----|--------|
-|Intro to JS|in progress...|
+|Intro to JS|[pic](Task_5/Intro_to_js.jpg)|
+
+#Task 6
+
+|Item|Progress|
+|----|--------|
+|Object Oriented JS|In progress...)|
