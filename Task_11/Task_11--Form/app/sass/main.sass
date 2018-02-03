@@ -43,7 +43,7 @@ h2
             top: -5px
             width: 30px
             height: 42px
-            background-image: url(/img/file.png)
+            background-image: url(../img/file.png)
             background-repeat: no-repeat
 
 .order
@@ -131,7 +131,7 @@ td
         top: -3px
         width: 42px
         height: 42px
-        background-image: url(/img/rescircle.png)
+        background-image: url(../img/rescircle.png)
         background-repeat: no-repeat
 
 .address__block a
@@ -148,7 +148,7 @@ td
         border-bottom: 1px solid #6e768f
 
 .container
-    width: 900px
+    max-width: 900px
     margin: 0 auto
     
 form 
@@ -160,6 +160,8 @@ form
     text-align: center
     display: flex
     margin-bottom: 105px
+    .container 
+        width: 900px
 
     h2 
         font-size: 20px
@@ -210,7 +212,7 @@ input[type=radio]:checked
         content: ''
         width: 32px
         height: 32px
-        background-image: url(/img/check.png)
+        background-image: url(../img/check.png)
         position: absolute
         top: -20px
         right: -20px
@@ -290,7 +292,7 @@ input[type=radio]:checked
             content: ''
             width: 21px
             height: 13px
-            background-image: url(/img/cloud.png)
+            background-image: url(../img/cloud.png)
             position: absolute
             top: 19px
             left: 29px
@@ -320,7 +322,7 @@ input[type=radio]:checked
         content: ''
         width: 15px
         height: 19px
-        background-image: url(/img/upload.png)
+        background-image: url(../img/upload.png)
         position: absolute
         top: 0px
         left: -38px
@@ -331,7 +333,7 @@ input[type=radio]:checked
 .remove button
     width: 13px
     height: 18px
-    background-image: url(/img/recyclebin.png) 
+    background-image: url(../img/recyclebin.png) 
     background-repeat: no-repeat
     background-position: 35% 0
     cursor: pointer
@@ -366,9 +368,7 @@ input[type=radio]:checked
     margin-right: 23px
     font-size: 14px
     color: #9098b7
-    appearance: none
-    // grid-area: select
-    
+    appearance: none    
     
     &:hover
         border-color: #5fcac6
@@ -404,7 +404,7 @@ input[type=radio]:checked
 
 .added::after
         content: ''
-        background-image: url(/lmg/recyclebin.png)
+        background-image: url(../lmg/recyclebin.png)
         background-position: 25px 45px
         width: 13px
         height: 18px
@@ -435,12 +435,11 @@ input[type=radio]:checked
 .delete
     border-color: transparent
     background-color: transparent
-    background-image: url(/img/recyclebin.png)
+    background-image: url(../img/recyclebin.png)
     background-position: 0 50%
     background-repeat: no-repeat
     cursor: pointer
     z-index: 2
-    // grid-area: delete
     
     &:hover
         coursor: pointer
@@ -459,7 +458,7 @@ input[type=radio]:checked
     color: #9098b7
     -webkit-appearance: none
     box-shadow: none
-    // grid-area: add
+    
     
     &:hover
         border-color: #5fcac6
@@ -599,7 +598,7 @@ input[type=range]::-webkit-slider-runnable-track
             content: ''
             width: 20px
             height: 20px
-            background-image: url(/img/info.png)
+            background-image: url(../img/info.png)
             position: absolute
             background-repeat: no-repeat
             top: -5px
@@ -654,10 +653,10 @@ input[type=range]::-webkit-slider-runnable-track
             width: 300px
 
         input:valid
-            background-image: url(/img/check_l.png)
+            background-image: url(../img/check_l.png)
 
         input:invalid
-            background-image: url(/img/wrong.png)
+            background-image: url(../img/wrong.png)
 
     &__wraper 
         display: flex
@@ -722,7 +721,7 @@ input[type=range]::-webkit-slider-runnable-track
             text-align: center
     
     &__number 
-        background-image: url(/img/visa_bg.png)
+        background-image: url(../img/visa_bg.png)
         background-repeat: no-repeat
         background-position: 97% 50%
         // width: 375px
@@ -797,7 +796,7 @@ input[type=range]::-webkit-slider-runnable-track
         content: ""
         width: 17px
         height: 8px
-        background-image: url(/img/arrow.png)
+        background-image: url(../img/arrow.png)
         background-repeat: no-repeat
         position: absolute
         left: 10px
@@ -812,7 +811,7 @@ input[type=range]::-webkit-slider-runnable-track
         content: ''
         width: 13px
         height: 13px
-        background-image: url(/img/human.png)
+        background-image: url(../img/human.png)
         background-repeat: no-repeat
         background-position: 0 50%
         position: absolute
@@ -871,7 +870,7 @@ footer
     content: ''
     width: 21px
     height: 19px
-    background-image: url(/img/heart.png)
+    background-image: url(../img/heart.png)
     background-repeat: no-repeat
     position: absolute
     left: -35px
@@ -880,7 +879,7 @@ footer
     content: ''
     width: 21px
     height: 21px
-    background-image: url(/img/compas.png)
+    background-image: url(../img/compas.png)
     background-repeat: no-repeat
     position: absolute
     left: -35px
@@ -889,7 +888,7 @@ footer
     content: ''
     width: 20px
     height: 22px
-    background-image: url(/img/link.png)
+    background-image: url(../img/link.png)
     background-repeat: no-repeat
     position: absolute
     left: -35px
@@ -911,7 +910,7 @@ footer
     content: ''
     width: 16px
     height: 16px
-    background-image: url(/img/facebook.png)
+    background-image: url(img/facebook.png)
     position: absolute
     left: -25px
     top: -2px
@@ -920,7 +919,7 @@ footer
     content: ''
     width: 16px
     height: 16px
-    background-image: url(/img/twitter.png)
+    background-image: url(../img/twitter.png)
     position: absolute
     left: -25px
     top: -2px
@@ -929,7 +928,7 @@ footer
     content: ''
     width: 16px
     height: 16px
-    background-image: url(/img/linkedin.png)
+    background-image: url(../img/linkedin.png)
     position: absolute
     left: -25px
     top: -2px
