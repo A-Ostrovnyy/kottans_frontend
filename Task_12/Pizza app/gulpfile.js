@@ -21,7 +21,7 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-// Минификация пользовательских скриптов проекта и JS библиотек в один файл
+//Минификация пользовательских скриптов проекта и JS библиотек в один файл
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
@@ -43,9 +43,11 @@ gulp.task('sass', function() {
 	.pipe(browserSync.reload({stream: true}));
 });
 
+
+
 gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
-	gulp.watch(['libs/**/*.js', 'app/js/common.js'], ['js']);
+	gulp.watch(['app/js/common.js'], ['js']);
 	gulp.watch('app/*.html', browserSync.reload);
 });
 
