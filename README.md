@@ -49,4 +49,10 @@
 
 |Item|Progress|
 |----|--------|
-|HTML5: Forms|[repo](https://github.com/A-Ostrovnyy/kottans_frontend/tree/master/Task_11/Task_11--Form)|
+|HTML5: Forms|[repo](https://github.com/A-Ostrovnyy/kottans_frontend/tree/master/Task_11/Task_11--Form) [demo](https://a-ostrovnyy.github.io/Kottans_frontend/task_11/index.html)|
+
+#Task 12
+
+|Item|Progress|
+|----|--------|
+|Pizza app|[repo](https://github.com/A-Ostrovnyy/kottans_frontend/tree/master/Task_12/Pizza%20app) [demo](https://A-Ostrovnyy.github.io/Kottans_frontend/task_12/index.html)|
