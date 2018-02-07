@@ -1,13 +1,13 @@
 var gulp           = require('gulp'),
-		gutil          = require('gulp-util' ),
-		sass           = require('gulp-sass'),
-		browserSync    = require('browser-sync'),
-		concat         = require('gulp-concat'),
-		uglify         = require('gulp-uglify'),
-		cleanCSS       = require('gulp-clean-css'),
-		rename         = require('gulp-rename'),
-		autoprefixer   = require('gulp-autoprefixer'),
-		notify         = require("gulp-notify");
+	gutil          = require('gulp-util' ),
+	sass           = require('gulp-sass'),
+	browserSync    = require('browser-sync'),
+	concat         = require('gulp-concat'),
+	uglify         = require('gulp-uglify'),
+	cleanCSS       = require('gulp-clean-css'),
+	rename         = require('gulp-rename'),
+	autoprefixer   = require('gulp-autoprefixer'),
+	notify         = require("gulp-notify");
 
 // Сервер и автообновление страницы Browsersync
 gulp.task('browser-sync', function() {
@@ -21,11 +21,11 @@ gulp.task('browser-sync', function() {
 	});
 });
 
-//Минификация пользовательских скриптов проекта и JS библиотек в один файл
+// Минификация пользовательских скриптов проекта и JS библиотек в один файл
 gulp.task('js', function() {
 	return gulp.src([
-		'app/libs/jquery/dist/jquery.min.js',
-		'app/js/common.js', // Всегда в конце
+		// 'app/libs/jquery/dist/jquery.min.js',
+		'app/js/common.js' // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
 	.pipe(uglify()) // Минимизировать весь js (на выбор)
@@ -43,11 +43,9 @@ gulp.task('sass', function() {
 	.pipe(browserSync.reload({stream: true}));
 });
 
-
-
 gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
 	gulp.watch('app/sass/**/*.sass', ['sass']);
-	gulp.watch(['app/js/common.js'], ['js']);
+	gulp.watch('app/js/common.js', ['js']);
 	gulp.watch('app/*.html', browserSync.reload);
 });
 
