@@ -42,7 +42,13 @@
 
 |Item|Progress|
 |----|--------|
-|Object Oriented JS|In progress...)|
+|Object Oriented JS|[pic](Task_6/Task_6.jpg)|
+
+#Task 7
+
+|Item|Progress|
+|----|--------|
+|Offline Web Applications|In progress...)|
 
 
 #Task 11
