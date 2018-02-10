@@ -48,8 +48,13 @@
 
 |Item|Progress|
 |----|--------|
-|Offline Web Applications|In progress...)|
+|Offline Web Applications|[pic](Task_7/task_7.jpg)|
 
+#Task 8
+
+|Item|Progress|
+|----|--------|
+|Memory Pair Game|In progress ...|
 
 #Task 11
 
