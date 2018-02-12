@@ -60,7 +60,7 @@
 
 |Item|Progress|
 |----|--------|
-|Website Performance Optimization|[pic](Task_9/task_9.jpg)|
+|Website Performance Optimization|[pic](Task_9/Task_9.png)|
 
 #Task 11
 
