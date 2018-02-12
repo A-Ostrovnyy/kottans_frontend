@@ -56,6 +56,12 @@
 |----|--------|
 |Memory Pair Game|In progress ...|
 
+#Task 9
+
+|Item|Progress|
+|----|--------|
+|Website Performance Optimization|[pic](Task_9/task_9.jpg)|
+
 #Task 11
 
 |Item|Progress|
